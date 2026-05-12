@@ -8,6 +8,16 @@ Core features:
 6. Service logs
 7. Stack traces
 
+### AI-Powered Recharge Support & Analytics Assistant
+
+Tech Stack: Java, Dropwizard, PostgreSQL, OpenAI API, Gemini API, REST APIs
+
+* AI-powered recharge operations assistant capable of analyzing transaction failures, recharge plans, provider issues, and user transaction history using natural language prompts.
+* AI orchestration workflows with intent classification, entity extraction, strategy/factory-based handler routing, and contextual response generation.
+* Multi-provider LLM abstraction supporting both OpenAI and Gemini with configurable prompt pipelines and provider-specific request/response handling.
+* Dynamic SQL query engine supporting flexible search on transaction ID, user ID, payment mode, operator, status, and recharge plan attributes.
+* Extensible backend architecture using DAO, Strategy Pattern, Factory Pattern, and conversational query processing workflows.
+  
 # Run Command
 
 ```bash
@@ -38,15 +48,6 @@ http://localhost:8080/query
 
 ```json
 
-### AI-Powered Recharge Support & Analytics Assistant
-
-Tech Stack: Java, Dropwizard, PostgreSQL, OpenAI API, Gemini API, REST APIs
-
-* AI-powered recharge operations assistant capable of analyzing transaction failures, recharge plans, provider issues, and user transaction history using natural language prompts.
-* AI orchestration workflows with intent classification, entity extraction, strategy/factory-based handler routing, and contextual response generation.
-* Multi-provider LLM abstraction supporting both OpenAI and Gemini with configurable prompt pipelines and provider-specific request/response handling.
-* Dynamic SQL query engine supporting flexible search on transaction ID, user ID, payment mode, operator, status, and recharge plan attributes.
-* Extensible backend architecture using DAO, Strategy Pattern, Factory Pattern, and conversational query processing workflows.
 {
     "response": "Transaction failed due to provider timeout during execution phase."
 }
