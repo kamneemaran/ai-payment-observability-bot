@@ -1,0 +1,7 @@
+Analyze transaction TXN1001 journey.
+Give JIO plans list.
+Give details of 3099 JIO plan.
+Tell the details of user USER123.
+Give list of success plans.
+Give the failure reason for transaction txn234.
+How many transactions USER0 did.
